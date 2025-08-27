@@ -19,7 +19,7 @@ const Product = () => {
   return (
     <>
       <Container>
-        <div className="flex items-center flex-wrap gap-4 justify-center">
+        <div className="flex items-center flex-wrap gap-4 justify-center py-6">
           {myProduct.map((item) => (
             <div key={item.id}>
               <div className="bg-amber-100 p-5 w-[400px]">
