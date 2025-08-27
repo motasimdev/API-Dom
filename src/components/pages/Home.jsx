@@ -1,12 +1,48 @@
-import Container from "../Container"
-import Flex from "../Flex"
-import Product from "../layouts/Product"
-
+import Container from "../Container";
+import Flex from "../Flex";
+import Product from "../layouts/Product";
 
 const Home = () => {
   return (
-    <Product/>
-  )
-}
+    <Product />
 
-export default Home
+    // step-1. div diye ekta shape banate hbe 300 something width r halka padding diye. jkhane badge, img, title, price thkbe.
+
+
+    // step-2. terminal: npm i axios
+
+
+    // step-3. import React, { useEffect, useState } from "react";
+    //         import axios from "axios";
+
+
+    // step-4. return er age,
+
+    // const [myProduct, setMyproduct] = useState([]);
+
+    // useEffect(() => {
+    //   async function all() {
+    //     let data = await axios.get("https://dummyjson.com/products");
+    //     setMyproduct(data.data.products);
+    //   }
+    //   all();
+    // }, []);
+
+
+    // step-5. myProduct k map krte hbe r ekta div er vitore key={item.id} diye wrap kre then vitore ager banano shape diye shekhane item.title etc er nam boshate hbe, 
+
+    // <div className="flex items-center flex-wrap gap-4 justify-center">
+        //   {myProduct.map((item) => (
+        //     <div key={item.id}>
+        //       <div className="bg-amber-100 p-5 w-[400px]">
+        //         <Image src={item.thumbnail} />
+        //         <h3>{item.title}</h3>
+        //         <p>{item.price}</p>
+        //       </div>
+        //     </div>
+        //   ))}
+        // </div>
+  );
+};
+
+export default Home;
