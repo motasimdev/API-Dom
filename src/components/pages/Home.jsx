@@ -77,8 +77,20 @@ const Home = () => {
         //export default Root
 
 
-      //step-5. 
-
+      //step-5. import er niche=>
+      const router = createBrowserRouter([
+  {
+    path: "/",
+    Component: Root,
+    children: [
+      { index: true, Component: Home },
+      { path: "about", Component: About },
+      { path: "shop", Component: Shop },
+      { path: "blog", Component: Blog },
+      { path: "contact", Component: Contact },
+    ],
+  },
+]);
     
         // </div>
   );
