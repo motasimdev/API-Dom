@@ -41,6 +41,45 @@ const Home = () => {
         //       </div>
         //     </div>
         //   ))}
+
+
+
+
+
+
+     //===================TYPE TWO=====================
+    // step-1. terminal: npm i react-router
+    
+
+    //step-2. main jsx: 
+    //import { createBrowserRouter } from "react-router";
+    //import { RouterProvider } from "react-router/dom";
+    
+
+    //step-3. main jsx: 
+    // <RouterProvider router={router} />,
+    
+
+    //step-4. create Root.jsx =>
+    //import React from 'react'
+      //import Header from './Header'
+     // import { Outlet } from 'react-router'
+     // import Footer from './Footer'
+
+      //const Root = () => {
+       // return (
+           // <>
+           // <Header/>
+           // <Outlet/>
+            //<Footer/>
+           // </>)}
+
+        //export default Root
+
+
+      //step-5. 
+
+    
         // </div>
   );
 };
