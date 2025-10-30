@@ -77,7 +77,7 @@ const Home = () => {
         //export default Root
 
 
-      //step-5. import er niche=>
+      //step-5. main.jsx e import er niche=>
       const router = createBrowserRouter([
   {
     path: "/",
